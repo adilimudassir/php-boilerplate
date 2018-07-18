@@ -1,0 +1,22 @@
+{
+    "name": "mudassir/php",
+    "description": "First php project",
+    "type": "project",
+    "require": {
+        "php": ">=7.2.3"
+    },
+
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "adilimudassir",
+            "email": "mudassiradili4u@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
